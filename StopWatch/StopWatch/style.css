@@ -1,0 +1,92 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    background-color: #e2ecee!important;
+    color: #339999 !important;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+.container{
+  background-color: transparent;
+  width: 350px !important;
+  height: 630px;
+  display: flex;
+  padding: 0%;
+  margin-top: 4%;
+  box-shadow: -3px -3px 7px #ffffffb2, 3px 3px 5px rgba(94, 104, 121, 0.945);
+}
+#min, #sec{
+  font-size: 4.5em;
+  margin-top: 20px;
+}
+#miliSec{
+  font-size: 3em;
+}
+.container-fluid{
+  margin-top: 50px !important;
+  background-color: transparent !important;
+  height: 200px;
+  border-radius: 70px 0px 70px 0px;
+	box-shadow: inset -3px -3px 7px #ffffffb0, inset 3px 3px 5px rgba(94, 104, 121, 0.692);
+}
+.container-fluid:hover{
+  border-bottom: #339999 2px;
+	box-shadow: inset -3px -3px 7px #ffffffb0, inset 3px 3px 5px rgba(94, 104, 121, 0.692), inset -3px -3px 7px #ffffffb0, inset 3px 3px 5px rgba(94, 104, 121, 0.692);
+  border-radius: 0px 70px 0px 70px;
+}
+.icons{
+  margin-top: 80%;
+  margin-left: 3px !important;
+  margin-left: auto;
+  font-size: 2.4em;
+  margin-right: auto;
+  cursor: pointer;
+  justify-content: space-between !important;
+  background-color: transparent;
+
+}
+.fa-play{
+  margin-left: -320px;
+	box-shadow: -3px -3px 7px #ffffffa6, 3px 3px 5px rgba(94, 104, 121, 0.712);
+  background-color: transparent;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+}
+.fa-pause{
+  margin-left: 40px;
+  box-shadow:  8px 8px 10px #bcc4c6, -8px -8px 10px #ffffff;
+  background-color: transparent;
+  border-radius: 100%;
+}
+.fa-history{
+  margin-left: 40px;
+  box-shadow:  8px 8px 10px #bcc4c6, -8px -8px 10px #ffffff;
+  background-color: transparent;
+  border-radius: 100%;
+}
+.fa-plus-circle{
+  margin-left: 40px;
+  box-shadow:  8px 8px 10px #bcc4c6, -8px -8px 10px #ffffff;
+  background-color: transparent;
+  border-radius: 100%;
+}
+.fa-play:active, .fa-pause:active, .fa-history:active, .fa-plus-circle:hover{
+  box-shadow: inset 8px 8px 10px #bcc4c6, inset -8px -8px 10px #ffffff;
+}
+.fa-play:hover, .fa-pause:hover, .fa-history:hover, .fa-plus-circle:hover{
+  box-shadow: inset 8px 8px 10px #bcc4c6, inset -8px -8px 10px #ffffff;
+}
+#lap{
+  color: #339999;
+  width: 340px;
+  font-size: 2em;
+  margin-top: -20%;
+  text-align: center;
+  text-decoration: underline;
+  border-radius: 70px 0px 70px 0px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 30px !important;
+}
